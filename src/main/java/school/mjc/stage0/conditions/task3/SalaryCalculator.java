@@ -14,7 +14,7 @@ public class SalaryCalculator {
             System.out.println(salary - (salary * taxes));
         } else if (salary == 0) {
             System.out.println("wrong input!");
-        } else if (salary < 0) {
+        } else if (salary < 2) {
             System.out.println("wrong input!");
         }
     }
